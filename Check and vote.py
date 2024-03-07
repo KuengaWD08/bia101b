@@ -10,5 +10,5 @@ user = input("enter your age: ")
 userage = int(user)
 if userage >= 18:
     print (' you can vote')
-elif userage <= 18:
+elif userage < 18:
     print("you cannot vote")
