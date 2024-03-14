@@ -30,3 +30,29 @@ for i in range(5,14):
 
 for i in range(5,14,2):
     print(i)
+#iterates by jumping 2 forward
+
+#While loops
+count = 0
+#while loop functions untils its true
+while count < 5:
+    print(count)
+    count = count + 1
+
+#user input strings is unknown
+#print every char of the strings
+s = 'helloabc'
+counter = 0
+lenth_s = len(s)
+print('coutner:', counter)
+print('len s:', lenth_s)
+# 0 , 1 , 2, 3, 
+print('going in loop')
+while counter < lenth_s:
+    print('counter:', counter)
+    char = s[counter]
+    print(char)
+    counter = counter + 1
+    print('-----')
+
+ 
